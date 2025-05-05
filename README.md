@@ -32,7 +32,6 @@ frozen_bot/
 
 1. **Clona el repositorio**
 
-```bash
 git clone https://github.com/tuusuario/frozen_bot.git
 cd frozen_bot
 
@@ -42,11 +41,11 @@ python -m venv venv
 source venv/bin/activate  # En Linux/macOS
 venv\Scripts\activate     # En Windows
 
-## 🔐 Configuración con variables de entorno
+3. **Configuración con variables de entorno**
 
-Este proyecto utiliza variables de entorno para ocultar datos sensibles. Asegúrate de crear un archivo `.env` en la raíz del proyecto con el siguiente contenido:
+Este proyecto utiliza variables de entorno para ocultar datos sensibles. 
+Asegúrate de crear un archivo `.env` en la raíz del proyecto con el siguiente contenido:
 
-```env
 API_KEY=tu_clave_de_openweathermap
 LAT
 LON
